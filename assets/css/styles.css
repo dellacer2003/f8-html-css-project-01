@@ -9,9 +9,13 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -210,12 +214,12 @@ a {
 /* ==================== Guides ==================== */
 .guides {
   margin-top: 4rem;
-  padding: 7.9rem 37.8rem;
+  padding: 16rem 37.8rem 8rem;
 }
 
 .guides .sub-title::before {
   position: absolute;
-  top: -1rem;
+  top: -1.5rem;
   left: 50%;
   transform: translateX(-50%);
   content: "";
